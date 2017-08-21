@@ -7,7 +7,7 @@
  **/
 namespace Source;
 
-class Conn implements IConn {
+class Conn implements ConnInterface {
 	private $dsn;
 	private $user;
 	private $pass;

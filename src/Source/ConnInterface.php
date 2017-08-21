@@ -7,6 +7,6 @@
  **/
 namespace Source;
 
-interface IConn {
+interface ConnInterface {
 	public function connect();
 }
