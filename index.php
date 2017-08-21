@@ -1,4 +1,6 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/service.php';
 
-$db = new \Source\Conn('mysql:host=localhost;dbname=test_oo', 'root', 'root');
+print_r($container['conn']);
